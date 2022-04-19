@@ -1,12 +1,12 @@
 import React from 'react';
-import headerimg from './Images/headerimg.svg'
 import './index.css'
 import { Link } from 'react-router-dom';
-import Page404img from './Images/404notfound.svg'
 import { Outlet } from 'react-router';
-import aboutfooter from './Images/aboutus2.svg'
-import shopheader from './Images/shopheader.svg'
+import Aboutfooter from './Images/aboutus2.svg'
+import Shopheader from './Images/shopheader.svg'
 import ShopPage from './ShopPage';
+import Page404img from './Images/404notfound.svg'
+import Headerimg from './Images/headerimg.svg'
 
 
 
@@ -63,7 +63,7 @@ export function Home() {
                 </div>
 
                 <div className="col-12 col-md-5 p-5 my-auto">
-                    <img src={headerimg} alt="headerphoto" className='header img-fluid' />
+                    <img src={Headerimg} alt="headerphoto" className='header img-fluid' />
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@ export function About() {
             <div className="m-auto">
                 <main>
                     <div className='row pb-2 text-center m-auto'>
-                        <img src={aboutfooter} alt="footertext" style={{ height: "300px", width: "80vw", objectFit: "cover", objectPosition: "center 100%" }} className="p-0 mx-auto" />
+                        <img src={Aboutfooter} alt="footertext" style={{ height: "300px", width: "80vw", objectFit: "cover", objectPosition: "center 100%" }} className="p-0 mx-auto" />
 
                         <h1 className=" text-center display-1">
                             About Us
@@ -221,7 +221,7 @@ export function About() {
                             </div>
 
 
-                            <img src={aboutfooter} alt="footertext" style={{ height: "250px", width: "100vw", objectFit: "cover", objectPosition: "center 5%" }} className="p-0 m-0 text-center" />
+                            <img src={Aboutfooter} alt="footertext" style={{ height: "250px", width: "100vw", objectFit: "cover", objectPosition: "center 5%" }} className="p-0 m-0 text-center" />
 
 
                         </div>
@@ -271,7 +271,7 @@ export function Shop() {
                 </div>
 
                 <div className='col-10'>
-                    <img src={shopheader} alt="headerimg" style={{ height: "300px", width: "100%", objectFit: "cover", objectPosition: "center 20%" }} />
+                    <img src={Shopheader} alt="headerimg" style={{ height: "300px", width: "100%", objectFit: "cover", objectPosition: "center 20%" }} />
                 </div>
             </div>
 
